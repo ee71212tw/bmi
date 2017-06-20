@@ -14,6 +14,7 @@
 		4CB3318A1EF1474A00662113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB331881EF1474A00662113 /* LaunchScreen.storyboard */; };
 		4CB331951EF1474A00662113 /* bmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB331941EF1474A00662113 /* bmuTests.swift */; };
 		4CB331A01EF1474A00662113 /* bmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3319F1EF1474A00662113 /* bmuUITests.swift */; };
+		4CB331AE1EF2127100662113 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB331AD1EF2127100662113 /* nextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4CB3319B1EF1474A00662113 /* bmuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bmuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3319F1EF1474A00662113 /* bmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmuUITests.swift; sourceTree = "<group>"; };
 		4CB331A11EF1474A00662113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB331AD1EF2127100662113 /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = nextViewController.swift; path = ../nextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4CB331861EF1474A00662113 /* Assets.xcassets */,
 				4CB331881EF1474A00662113 /* LaunchScreen.storyboard */,
 				4CB3318B1EF1474A00662113 /* Info.plist */,
+				4CB331AD1EF2127100662113 /* nextViewController.swift */,
 			);
 			path = bmu;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB331AE1EF2127100662113 /* nextViewController.swift in Sources */,
 				4CB331821EF1474A00662113 /* ViewController.swift in Sources */,
 				4CB331801EF1474A00662113 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				4CB331A61EF1474A00662113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB331A71EF1474A00662113 /* Build configuration list for PBXNativeTarget "bmuTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				4CB331A91EF1474A00662113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB331AA1EF1474A00662113 /* Build configuration list for PBXNativeTarget "bmuUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				4CB331AC1EF1474A00662113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
