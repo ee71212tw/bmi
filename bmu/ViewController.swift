@@ -57,7 +57,7 @@ let Weight = Double(weight.text!)
     
         if  happy.isOn
         {
-       
+       cry.isHidden = true
         good.isHidden=false
             
        medicine.text=("不用治療")
@@ -65,14 +65,10 @@ let Weight = Double(weight.text!)
         }else
         {
         cry.isHidden=false
-            
+            good.isHidden = true
           medicine.text = ("禱告")
         }
     
     }
-
-  
-
-
 }
 

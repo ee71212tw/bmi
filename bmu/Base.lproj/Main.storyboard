@@ -162,18 +162,19 @@
                                 <color key="textColor" red="1" green="0.2405253735" blue="0.1488246463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FM-6G-fv5">
-                                <rect key="frame" x="299" y="612" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cry" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-BS-31R">
+                                <rect key="frame" x="104" y="336" width="168" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FM-6G-fv5">
+                                <rect key="frame" x="299" y="608" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="下一頁"/>
                                 <connections>
                                     <segue destination="0Qj-L4-Tmy" kind="show" id="Jpd-tk-8u8"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cry" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-BS-31R">
-                                <rect key="frame" x="104" y="336" width="168" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.81390625000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -205,8 +206,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZs-G9-qmW">
-                                <rect key="frame" x="294" y="599" width="46" height="30"/>
+                                <rect key="frame" x="236" y="599" width="104" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="上一頁"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I5m-US-Rpz"/>
@@ -321,10 +323,6 @@
                                 <color key="textColor" red="0.20807692310000001" green="0.51866586540000004" blue="0.99476414719999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你是海綿" translatesAutoresizingMaskIntoConstraints="NO" id="CDH-4a-Dza">
-                                <rect key="frame" x="76" y="324" width="236" height="245"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMl-IS-6V2">
                                 <rect key="frame" x="116" y="183" width="157" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -336,6 +334,10 @@
                                     <action selector="dd:" destination="0Qj-L4-Tmy" eventType="touchUpInside" id="ccy-8G-ReG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你是海綿" translatesAutoresizingMaskIntoConstraints="NO" id="CDH-4a-Dza">
+                                <rect key="frame" x="70" y="324" width="261" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.72389758849999997" green="1" blue="0.65930312520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
